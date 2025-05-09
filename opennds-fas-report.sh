@@ -64,7 +64,7 @@ if ! command -v uclient-fetch >/dev/null 2>&1; then
 fi
 
 # Wait for openNDS to start
-sleep 5
+sleep 60
 
 # Check authmon
 check_authmon_running
